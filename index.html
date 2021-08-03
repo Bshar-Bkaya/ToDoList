@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="todo-container">
+      <div class="add-task">
+        <input class="input" type="text" placeholder="Enter The Task" />
+        <span class="plus" title="Add Task">+</span>
+      </div>
+      <div class="tasks-content">
+        <span class="no-tasks">No Tasks To Show</span>
+      </div>
+    </div>
+    <div class="task-status">
+      <div class="tasks-count">Task Count <span>0</span></div>
+      <div class="tasks-completed">completed <span>0</span></div>
+    </div>
+    <div class="all">
+      <span class="complet-all">Completed All</span>
+      <span class="delete-all">Delete All</span>
+    </div>
+
+    <script src="package/dist/sweetalert2.all.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
